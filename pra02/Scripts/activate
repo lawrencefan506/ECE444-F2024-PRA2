@@ -39,10 +39,10 @@ deactivate nondestructive
 if [ "${OSTYPE:-}" = "cygwin" ] || [ "${OSTYPE:-}" = "msys" ] ; then
     # transform D:\path\to\venv to /d/path/to/venv on MSYS
     # and to /cygdrive/d/path/to/venv on Cygwin
-    export VIRTUAL_ENV=$(cygpath "C:\Users\lawre\OneDrive - University of Toronto\4th Year\ECE444\Practicals\ECE444-F2024-PRA2\pra02")
+    export VIRTUAL_ENV=$(cygpath "C:\Users\lawre\OneDrive - University of Toronto\4th Year\ECE444\Practicals\ECE444-F2024-PRA2\PRA02")
 else
     # use the path as-is
-    export VIRTUAL_ENV="C:\Users\lawre\OneDrive - University of Toronto\4th Year\ECE444\Practicals\ECE444-F2024-PRA2\pra02"
+    export VIRTUAL_ENV="C:\Users\lawre\OneDrive - University of Toronto\4th Year\ECE444\Practicals\ECE444-F2024-PRA2\PRA02"
 fi
 
 _OLD_VIRTUAL_PATH="$PATH"
@@ -59,9 +59,9 @@ fi
 
 if [ -z "${VIRTUAL_ENV_DISABLE_PROMPT:-}" ] ; then
     _OLD_VIRTUAL_PS1="${PS1:-}"
-    PS1="(pra02) ${PS1:-}"
+    PS1="(PRA02) ${PS1:-}"
     export PS1
-    VIRTUAL_ENV_PROMPT="(pra02) "
+    VIRTUAL_ENV_PROMPT="(PRA02) "
     export VIRTUAL_ENV_PROMPT
 fi
 
