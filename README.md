@@ -7,6 +7,10 @@ Screenshots for PRA
 Activity 1.3
 ![alt text](images/activity1-3.png)
 
+Activity 1.4
+![alt text](images/activity1-4a.png)
+![alt text](images/activity1-4b.png)
+
 Flasky
 ======
 
